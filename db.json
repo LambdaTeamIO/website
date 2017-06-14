@@ -1,0 +1,29 @@
+{
+  "projects": [
+    { "name": "Gambling Industry", "description": "Distribution of information using Akka Cluster and Akka Persistence Cassandra. We've been dealing with technical challenges such as network partitions (split brain scenarios), nodes down, cluster sharding and master-slave architecture, among others. Streaming trading platform built from the scratch using Scalaz Streams consuming Rabbit MQ messages as the main core. Http4s was used for all the HTTP Endpoints. Another technologies such as Scalaz, Shapeless and Monocle were heavily used in the project. All the unit tests have been written using Scala Test in combination with Property Checks. Docker and Docker compose were a fundamental tool for running local and acceptance test environments."},
+
+    { "name": "Investment Banking Industry", "description": "Scala Trades processing platform that matched orders and allocation instructions using event sourcing and display systems that incorporate CQRS. Many integration challenges such as Kafka, FIX protocol, HotCC, JMS." },
+
+    { "name": "IoT Industry", "description": "Cloud platform of IoT services to manage hardware such as LED lights and electronic devices across different protocols. Tech stack includes Akka, Finatra, Circe, Docker, RabbitMQ and Mosquitto MQTT." },
+
+    { "name": "Real State Industry", "description": "Back-end for mobile push notifications of real state app. Tech stack includes Akka, Play! Framework, Redis and Apache Kafka. Deployed on Heroku." },
+
+    { "name": "Gaming Industry", "description": "Design and development of the back-end of a mobile / web game. Tech stack includes Web Sockets (socket.io) and Redis." },
+
+    { "name": "Advertising Industry", "description": "Worked on the Audience Targeting Platform of an American multinational. Main project was tracking audiences on the web and storing their session data in Couchbase/Aerospike. This data is then used to provide the audience with relevant targeted advertisements. Java specialisations dropwizard, Spring MVC, Play" },
+
+    { "name": "BI Industry", "description": "Web LDAP Manager for one of the biggest BI companies in the market. It reduced operative times by 60% and provided a better customer experience by giving an easy and fast self-service." },
+
+    { "name": "TV Industry", "description": "Worked for Cartoon Network LA on a new Content Management. Main achievements include creation and content serving times." },
+
+    { "name": "Soft Drink Industry", "description": "Full stack development of mainly short innovative projects to support marketing campaigns for one the biggest Drink companies in the world. Tech stack includes Spray, Akka, AngularJS." }
+  ],
+
+  "persons": [
+    { "name": "Gabriel Volpe", "title": "Senior Software Developer", "picture": "https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAkYAAAAJGFiOGJjMDNiLTNmNjItNDQ4YS05MTEwLWY2YzgwMDMzZWM0ZQ.jpg" , "linkedin":"https://www.linkedin.com/in/gmvolpe/"},
+    { "name": "Marcin Sosnicki", "title": "Senior Software Developer", "picture": "https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/4/005/034/002/0fec40e.jpg", "linkedin":"https://www.linkedin.com/in/marcin-so%C5%9Bnicki-8baa5878/" },
+    { "name": "Damian Albrun", "title": "Senior Software Developer", "picture": "https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAA0UAAAAJGIwOWY1ZmNkLWE4MGEtNDgyNy1iMzY3LTM0NWU5ODU5NjJkZg.jpg", "linkedin":"https://www.linkedin.com/in/damian-albrun-b92b074/" },
+    { "name": "John Regan", "title": "Senior Software Developer", "picture": "https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAdrAAAAJGY5MjVhZWI0LTg3MTMtNDI5Ni1hODE3LWEwMjI5YjQxMjg2Zg.jpg", "linkedin":"https://www.linkedin.com/in/john-regan-4b6b1a32/" }
+  ]
+
+}
