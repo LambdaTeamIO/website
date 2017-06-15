@@ -10,3 +10,5 @@ update msg model =
   case msg of
     Msgs.OnFetchProjects response ->
       ( { model | projects = response }, Cmd.none )
+    Msgs.OnFetchTeam response ->
+      ( { model | team = response }, Cmd.none )
