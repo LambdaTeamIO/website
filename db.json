@@ -19,7 +19,7 @@
     { "name": "Soft Drink Industry", "description": "Full stack development of mainly short innovative projects to support marketing campaigns for one the biggest Drink companies in the world. Tech stack includes Spray, Akka, AngularJS." }
   ],
 
-  "persons": [
+  "team": [
     { "name": "Gabriel Volpe", "title": "Senior Software Developer", "picture": "https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAkYAAAAJGFiOGJjMDNiLTNmNjItNDQ4YS05MTEwLWY2YzgwMDMzZWM0ZQ.jpg" , "linkedin":"https://www.linkedin.com/in/gmvolpe/"},
     { "name": "Marcin Sosnicki", "title": "Senior Software Developer", "picture": "https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/4/005/034/002/0fec40e.jpg", "linkedin":"https://www.linkedin.com/in/marcin-so%C5%9Bnicki-8baa5878/" },
     { "name": "Damian Albrun", "title": "Senior Software Developer", "picture": "https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAA0UAAAAJGIwOWY1ZmNkLWE4MGEtNDgyNy1iMzY3LTM0NWU5ODU5NjJkZg.jpg", "linkedin":"https://www.linkedin.com/in/damian-albrun-b92b074/" },

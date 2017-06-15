@@ -5,7 +5,7 @@ import Msgs exposing (Msg)
 import Models exposing (Model, initialModel)
 import Update exposing (update)
 import View exposing (view)
-import Commands exposing (fetchProjects)
+import Commands exposing (fetchTeam, fetchProjects)
 
 -- SUBSCRIPTIONS
 
@@ -16,7 +16,7 @@ subscriptions model =
 -- INIT
 init : ( Model, Cmd Msg )
 init =
-  ( initialModel, fetchProjects )
+  ( initialModel, Cmd.batch [ fetchTeam, fetchProjects ] )
 
 -- MAIN
 
