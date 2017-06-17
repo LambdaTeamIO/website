@@ -9,7 +9,7 @@ import Common.Request exposing(maybeList)
 
 view: WebData (List Project) -> Html Msg
 view response =
-  div [ class "px4 mb2 bg-orange white" ]
+  div [ class "px4 py2 bg-orange white" ]
       [ h2 [] [ text "Projects" ]
       , maybeList response list
       ]

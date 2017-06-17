@@ -25,10 +25,10 @@ nav =
 
 page: Model -> Html Msg
 page model =
-  -- div [ class "pxb3 lg-px4" ]
   div [ ]
       [ Team.View.view model.team
-      , Projects.List.view model.projects ]
+      , Projects.List.view model.projects 
+      ]
 
 
 footer: Html Msg

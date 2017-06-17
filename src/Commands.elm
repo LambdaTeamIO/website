@@ -56,4 +56,3 @@ memberDecoder =
     |> required "linkedin" Decode.string
     |> required "github" Decode.string
     |> optional "blog" (Decode.map Just Decode.string) Nothing
-    
