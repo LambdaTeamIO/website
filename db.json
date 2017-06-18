@@ -20,13 +20,13 @@
   ],
 
   "team": [
-    { "name": "Gabriel Volpe", "title": "Senior Software Developer", "picture": "https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAkYAAAAJGFiOGJjMDNiLTNmNjItNDQ4YS05MTEwLWY2YzgwMDMzZWM0ZQ.jpg" , "linkedin":"https://www.linkedin.com/in/gmvolpe/", "github":"https://github.com/gvolpe", "blog":"http://partialflow.wordpress.com" },
+    { "name": "Gabriel Volpe", "title": "Senior Software Developer", "picture": "../assets/profile/gvolpe.jpg" , "linkedin":"https://www.linkedin.com/in/gmvolpe/", "github":"https://github.com/gvolpe", "blog":"http://partialflow.wordpress.com" },
 
-    { "name": "Marcin Sosnicki", "title": "Senior Software Developer", "picture": "https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/4/005/034/002/0fec40e.jpg", "linkedin":"https://www.linkedin.com/in/marcin-so%C5%9Bnicki-8baa5878/", "github":"https://github.com/msosnicki" },
+    { "name": "Marcin Sosnicki", "title": "Senior Software Developer", "picture": "../assets/profile/msosnicki.jpg", "linkedin":"https://www.linkedin.com/in/marcin-so%C5%9Bnicki-8baa5878/", "github":"https://github.com/msosnicki" },
 
-    { "name": "Damian Albrun", "title": "Senior Software Developer", "picture": "https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAA0UAAAAJGIwOWY1ZmNkLWE4MGEtNDgyNy1iMzY3LTM0NWU5ODU5NjJkZg.jpg", "linkedin":"https://www.linkedin.com/in/damian-albrun-b92b074/", "github":"https://github.com/insdami" },
+    { "name": "Damian Albrun", "title": "Senior Software Developer", "picture": "../assets/profile/dalbrun.jpg", "linkedin":"https://www.linkedin.com/in/damian-albrun-b92b074/", "github":"https://github.com/insdami" },
 
-    { "name": "John Regan", "title": "Senior Software Developer", "picture": "https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAdrAAAAJGY5MjVhZWI0LTg3MTMtNDI5Ni1hODE3LWEwMjI5YjQxMjg2Zg.jpg", "linkedin":"https://www.linkedin.com/in/john-regan-4b6b1a32/", "github":"https://github.com/johnregan" }
+    { "name": "John Regan", "title": "Senior Software Developer", "picture": "../assets/profile/jregan.jpg", "linkedin":"https://www.linkedin.com/in/john-regan-4b6b1a32/", "github":"https://github.com/johnregan" }
   ]
 
 }
