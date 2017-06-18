@@ -23,3 +23,4 @@ $ yarn start
 
 # Known issues
 - [Error extracting linux-x64.tar.gz - Error: EACCES: permission denied](https://github.com/gdotdesign/elm-github-install/issues/21)
+- [Issues installing nodejs 8 in ubuntu](https://www.digitalocean.com/community/questions/apt-get-update-ending-in-problem-executing-scripts-apt-update-post-invoke-success)
