@@ -1,16 +1,17 @@
 module Models exposing (..)
 
-import Projects.Models exposing(Project)
-import Team.Models exposing(Member)
-import RemoteData exposing (WebData)
+import Data.Projects exposing (Projects)
+import Data.Team exposing (Team)
+
 
 type alias Model =
-  { projects: WebData (List Project)
-  , team: WebData (List Member)
-  }
+    { projects : Projects
+    , team : Team
+    }
 
-initialModel: Model
+
+initialModel : Model
 initialModel =
-  { projects = RemoteData.Loading
-  , team = RemoteData.Loading
-  }
+    { projects = Data.Projects.init
+    , team = Data.Team.init
+    }

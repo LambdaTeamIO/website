@@ -5,8 +5,8 @@ import RemoteData
 import Json.Decode as Decode
 import Json.Decode.Pipeline exposing (decode, required, optional)
 import Msgs exposing (Msg)
-import Team.Models exposing (Member)
-import Projects.Models exposing (Project)
+import Data.Team exposing (Team, Member)
+import Data.Projects exposing (Projects, Project)
 
 
 -- PROJECTS
@@ -24,7 +24,7 @@ fetchProjectsUrl =
     "http://localhost:4000/projects"
 
 
-projectsDecoder : Decode.Decoder (List Project)
+projectsDecoder : Decode.Decoder Projects
 projectsDecoder =
     Decode.list projectDecoder
 
@@ -52,7 +52,7 @@ fetchTeamUrl =
     "http://localhost:4000/team"
 
 
-teamDecoder : Decode.Decoder (List Member)
+teamDecoder : Decode.Decoder Team
 teamDecoder =
     Decode.list memberDecoder
 

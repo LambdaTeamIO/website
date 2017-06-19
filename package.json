@@ -13,14 +13,12 @@
     "file-loader": "^0.11.1",
     "font-awesome": "4",
     "foreman": "^2.0.0",
-    "json-server": "0.9.5",
     "style-loader": "^0.18.1",
     "url-loader": "^0.5.8",
     "webpack": "^2.6.1",
     "webpack-dev-server": "^2.4.5"
   },
   "scripts": {
-	  "api": "node api.js",
 	  "build": "webpack",
 	  "client": "webpack-dev-server --port 3000",
 	  "start": "nf start"

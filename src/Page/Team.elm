@@ -1,18 +1,16 @@
-module Team.View exposing (..)
+module Page.Team exposing (view)
 
 import Html exposing (..)
 import Html.Attributes exposing (..)
 import Msgs exposing (Msg)
-import Team.Models exposing (Member)
-import RemoteData exposing (WebData)
-import Common.Request exposing (maybeList)
+import Data.Team exposing (Member, Team)
 
 
-view : WebData (List Member) -> Html Msg
-view response =
+view : List Member -> Html Msg
+view team =
     div [ class "px4 mb2" ]
         [ h2 [] [ text "Team" ]
-        , maybeList response list
+        , list team
         ]
 
 
