@@ -8,7 +8,7 @@ import Data.Projects exposing (Project, Projects)
 
 view : Projects -> Html Msg
 view projects =
-    div [ class "px4 py2 bg-orange white" ]
+    section [ class "px4 py2 bg-orange white" ]
         [ h2 [] [ text "Projects" ]
         , list projects
         ]
