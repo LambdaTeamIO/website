@@ -8,7 +8,7 @@ import Data.Team exposing (Member, Team)
 
 view : List Member -> Html Msg
 view team =
-    div [ class "px4 mb2" ]
+    section [ class "px4 mb2" ]
         [ h2 [] [ text "Team" ]
         , list team
         ]
@@ -24,7 +24,7 @@ list members =
 memberBlock : Member -> Html Msg
 memberBlock member =
     div [ class "px2 col-12 sm-col-6 md-col-3 center" ]
-        [ img [ src member.picture, height 240, width 240, class "circle" ] []
+        [ img [ src member.picture, height 240, width 240, class "circle profile-picture" ] []
         , h3 [] [ text member.name ]
         , text member.title
         , memberLinks member
