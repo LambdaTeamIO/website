@@ -1,26 +1,18 @@
+Simple static webpage using:
+- [Elm](http://elm-lang.org)
+- [Basscss](http://basscss.com/)
+- [Font Awesome](http://fontawesome.io)
+
+Deployed in Heroku using [Elm Buildpack](https://github.com/srid/heroku-buildpack-elm)
+
 # Setup
 Requirements:
 
 - [Elm](http://elm-lang.org/install)
-- [Node](https://nodejs.org/en/download/) version > 6
-- [Yarn](https://yarnpkg.com/)
 
-Install node packages:
+# Try It!
 
-From project folder `website` run
 ```
 $ cd website
-$ yarn
+$ elm make src/Main.elm --warn --output=elm.js
 ```
-
-# Run it!
-
-In terminal run:
-
-```
-$ yarn start
-```
-
-# Known issues
-- [Error extracting linux-x64.tar.gz - Error: EACCES: permission denied](https://github.com/gdotdesign/elm-github-install/issues/21)
-- [Issues installing nodejs 8 in ubuntu](https://www.digitalocean.com/community/questions/apt-get-update-ending-in-problem-executing-scripts-apt-update-post-invoke-success)
