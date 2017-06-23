@@ -2,7 +2,7 @@
     "name": "Lambda Website",
     "repository": "https://github.com/TheLambdaTeam/website",
     "env": {
-        "ELM_COMPILE": "elm make src/Main.elm --output elm.js"
+        "ELM_COMPILE": "elm make src/Main.elm --output public/elm.js"
     },
     "buildpacks": [
         {

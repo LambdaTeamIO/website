@@ -14,5 +14,5 @@ Requirements:
 
 ```
 $ cd website
-$ elm make src/Main.elm --warn --output=elm.js
+$ elm make src/Main.elm --warn --output=public/elm.js
 ```
