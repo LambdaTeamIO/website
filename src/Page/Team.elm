@@ -6,28 +6,25 @@ import Msgs exposing (Msg)
 import Data.Team exposing (Member, Team)
 
 
-view : List Member -> Html Msg
+view : Team -> Html Msg
 view team =
-    section [ class "px4 mb2" ]
-        [ h2 [] [ text "Team" ]
-        , list team
-        ]
-
-
-list : List Member -> Html Msg
-list members =
-    div []
-        [ div [ class "flex flex-wrap" ] (List.map memberBlock members)
-        ]
+    div [ class "flex flex-wrap" ] (List.map memberBlock team)
 
 
 memberBlock : Member -> Html Msg
 memberBlock member =
     div [ class "px2 col-12 sm-col-6 md-col-3 center" ]
-        [ img [ src member.picture, height 240, width 240, class "circle profile-picture" ] []
+        [ memberPicture member
         , h3 [] [ text member.name ]
-        , text member.title
         , memberLinks member
+        ]
+
+
+memberPicture : Member -> Html Msg
+memberPicture member =
+    div []
+        [ img [ src member.picture, height 240, width 240, class "circle profile-picture xs-hide sm-hide" ] []
+        , img [ src member.picture, height 128, width 128, class "circle profile-picture md-hide lg-hide" ] []
         ]
 
 

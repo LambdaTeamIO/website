@@ -8,17 +8,7 @@ import Data.Projects exposing (Project, Projects)
 
 view : Projects -> Html Msg
 view projects =
-    section [ class "px4 py2 bg-orange white" ]
-        [ h2 [] [ text "Projects" ]
-        , list projects
-        ]
-
-
-list : Projects -> Html Msg
-list projects =
-    div []
-        [ div [ class "mxn2 flex flex-wrap" ] (List.map projectBlock projects)
-        ]
+    div [ class "mxn2 flex flex-wrap" ] (List.map projectBlock projects)
 
 
 projectBlock : Project -> Html Msg
