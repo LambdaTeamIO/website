@@ -23,9 +23,7 @@ body, html {
     bottom: 0px;
     left: 50%;
     margin-left: -18px;
-    font-weight: 400;
-    font-size: 45px;
-    text-align: center;
+    height: 64px;
 }
 
 @media only screen and (max-device-width: 768px) {

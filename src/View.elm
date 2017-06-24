@@ -1,7 +1,7 @@
 module View exposing (..)
 
-import Html exposing (Html, section, div, text, p, footer, nav, span)
-import Html.Attributes exposing (class, id)
+import Html exposing (Html, section, div, text, p, footer, nav, span, img)
+import Html.Attributes exposing (class, id, src)
 import Msgs exposing (Msg)
 import Models exposing (Model)
 import Page.Projects
@@ -31,7 +31,7 @@ navigation =
 welcome : Html Msg
 welcome =
     div [ class "parallax white " ]
-        [ span [ id "arrow", class "fa fa-chevron-down xs-hide sm-hide" ] [] ]
+        [ img [ id "arrow", src "assets/bouncing-arrow.gif" ] [] ]
 
 
 sections : Model -> Html Msg
