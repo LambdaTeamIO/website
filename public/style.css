@@ -9,7 +9,7 @@ body, html {
 
 .parallax {
     background-image: url("assets/lambda-logo-white.png");
-    height: 800px;
+    height: 1100px;
     background-attachment: fixed;
     background-position-x: center;
     background-position-y: 40px;
@@ -31,6 +31,8 @@ body, html {
         background-attachment: scroll;
 	background-image: url("assets/lambda-logo-square.png");
 	height: 350px;
-	background-size: 75%
+	background-size: 45%;
+	background-position-y: 55px;
     }
 }
+

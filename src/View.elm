@@ -31,7 +31,7 @@ navigation =
 welcome : Html Msg
 welcome =
     div [ class "parallax white " ]
-        [ img [ id "arrow", src "assets/bouncing-arrow.gif" ] [] ]
+        [ img [ id "arrow", class "xs-hide sm-hide", src "assets/bouncing-arrow.gif" ] [] ]
 
 
 sections : Model -> Html Msg
