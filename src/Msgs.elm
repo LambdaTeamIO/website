@@ -1,5 +1,8 @@
 module Msgs exposing (..)
 
+import Github exposing (ApiError, Events)
+
 
 type Msg
-    = NoOp
+    = FetchEventsResult (Result ApiError Events)
+    | NoOp
