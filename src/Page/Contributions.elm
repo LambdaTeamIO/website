@@ -18,7 +18,7 @@ contributionBlock tuple =
         ( projectName, contribution ) =
             tuple
     in
-        div [ class "px2 col-12 sm-col-6 md-col-3 block-content" ]
+        div [ class "px2 col-12 sm-col-6 md-col-3 " ]
             [ div [ class "center" ]
                 [ a [ href (contributorsLink contribution) ] [ img [ class "language-image", src (languageImage contribution.language) ] [] ]
                 , a [ class "white", href contribution.url ] [ h3 [] [ text projectName ] ]

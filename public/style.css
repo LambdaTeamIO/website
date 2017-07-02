@@ -27,11 +27,6 @@ body, html {
     height: 64px;
 }
 
-.block-content {
-    max-height: 320px;
-    overflow: scroll;
-}    
-
 .language-image {
     max-height: 48px;
 } 
