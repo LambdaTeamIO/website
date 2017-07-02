@@ -27,6 +27,19 @@ body, html {
     height: 64px;
 }
 
+.block-content {
+    max-height: 320px;
+    overflow: scroll;
+}    
+
+.language-image {
+    max-height: 48px;
+} 
+
+.contribution-links {
+    list-style-type: lower-greek;
+}    
+
 @media only screen and (max-device-width: 768px) {
     .parallax {
         background-attachment: scroll;

@@ -6,6 +6,7 @@ import Msgs exposing (Msg)
 import Models exposing (Model)
 import Page.Projects
 import Page.Team
+import Page.Contributions
 
 
 view : Model -> Html Msg
@@ -39,6 +40,7 @@ sections model =
     div [ class "white my2 mx2" ]
         [ section [ id "team", class "my2" ] [ Page.Team.view model.team ]
         , section [ id "projects", class "my4" ] [ Page.Projects.view model.projects ]
+        , section [ id "contributions", class "my4" ] [ Page.Contributions.view model.contributions ]
         ]
 
 
