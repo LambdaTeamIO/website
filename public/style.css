@@ -2,6 +2,10 @@ body, html {
     height: 100%;
     background-color: #1A2930;
 }
+a {
+    color: #ff851b;
+    text-decoration: none;
+}
 
 /* HOME */
 .bg-lambda-green {
