@@ -1,7 +1,7 @@
 module View exposing (..)
 
-import Html exposing (Html, section, div, text, p, footer, nav, span, img, h2)
-import Html.Attributes exposing (class, id, src)
+import Html exposing (Html, section, div, text, p, footer, nav, span, img, h2, a)
+import Html.Attributes exposing (class, id, src, href)
 import Msgs exposing (Msg)
 import Models exposing (Model)
 import Page.Projects
@@ -48,4 +48,4 @@ sections model =
 contact : Html Msg
 contact =
     footer [ class "clearfix white bg-black orange" ]
-        [ p [ class "h2 center" ] [ text "hello@lambdateam.io" ] ]
+        [ p [ class "h2 center" ] [ a [ href "mailto: hello@lambdateam.io" ] [ text "hello@lambdateam.io" ] ] ]

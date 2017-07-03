@@ -15,5 +15,5 @@ projectBlock : Project -> Html Msg
 projectBlock project =
     div [ class "px2 col-12 sm-col-6 md-col-4" ]
         [ h3 [] [ text project.name ]
-        , text project.description
+        , p [ class "wrap-blanks" ] [ text project.description ]
         ]

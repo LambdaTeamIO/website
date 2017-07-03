@@ -31,6 +31,10 @@ a {
     height: 64px;
 }
 
+.wrap-blanks {
+    white-space:pre-wrap;
+}
+
 .language-image {
     max-height: 48px;
 } 
