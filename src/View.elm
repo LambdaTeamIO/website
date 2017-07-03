@@ -1,11 +1,12 @@
 module View exposing (..)
 
-import Html exposing (Html, section, div, text, p, footer, nav, span, img)
+import Html exposing (Html, section, div, text, p, footer, nav, span, img, h2)
 import Html.Attributes exposing (class, id, src)
 import Msgs exposing (Msg)
 import Models exposing (Model)
 import Page.Projects
 import Page.Team
+import Page.Contributions
 
 
 view : Model -> Html Msg
@@ -38,7 +39,8 @@ sections : Model -> Html Msg
 sections model =
     div [ class "white my2 mx2" ]
         [ section [ id "team", class "my2" ] [ Page.Team.view model.team ]
-        , section [ id "projects", class "my4" ] [ Page.Projects.view model.projects ]
+        , section [ id "projects", class "my4" ] [ h2 [ class "orange" ] [ text "Industry experience" ], Page.Projects.view model.projects ]
+        , section [ id "contributions", class "my4" ] [ h2 [ class "orange" ] [ text "Contributions" ], Page.Contributions.view model.contributions ]
         ]
 
 

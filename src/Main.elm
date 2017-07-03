@@ -4,7 +4,7 @@ import Html exposing (program)
 import Models exposing (Model, initialModel)
 import Update exposing (update)
 import View exposing (view)
-import Msgs exposing (Msg)
+import Msgs exposing (Msg(..))
 
 
 -- SUBSCRIPTIONS
