@@ -40,8 +40,8 @@ sections : Model -> Html Msg
 sections model =
     div [ class "white my2 mx2" ]
         [ section [ id "team", class "my2" ] [ Page.Team.view model.team, Page.AboutUs.view model.aboutUs ]
-        , section [ id "projects", class "my4" ] [ h2 [ class "orange" ] [ text "Industry experience" ], Page.Projects.view model.projects ]
-        , section [ id "contributions", class "my4" ] [ h2 [ class "orange" ] [ text "Contributions" ], Page.Contributions.view model.contributions ]
+        , section [ id "projects", class "my4" ] [ h2 [ class "orange center" ] [ text "Industry experience" ], Page.Projects.view model.projects ]
+        , section [ id "contributions", class "my4" ] [ h2 [ class "orange center mb4" ] [ text "Contributions" ], Page.Contributions.view model.contributions ]
         ]
 
 
