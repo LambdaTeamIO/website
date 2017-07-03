@@ -60,7 +60,6 @@ insdamiContributions =
     let
         contributionsList =
             [ ( "lampepfl/dotty", (Contribution "https://github.com/lampepfl/dotty" [ (Event "Moved literal message into error Message class" "pull/2725") ] Scala) )
-            , ( "torgeir/elm-github-events", (Contribution "https://github.com/torgeir/elm-github-events" [ (Event "Update to 0.18" "pull/2") ] Elm) )
             ]
     in
         Dict.fromList contributionsList
