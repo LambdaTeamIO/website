@@ -23,7 +23,6 @@ contributionBlock tuple =
                 [ a [ href (contributorsLink contribution) ] [ img [ class "language-image", src (languageImage contribution.language) ] [] ]
                 , a [ class "white", href contribution.url ] [ h3 [] [ text projectName ] ]
                 ]
-            , contributionLinks contribution
             ]
 
 
