@@ -23,17 +23,17 @@ view model =
 navigation : Html Msg
 navigation =
     nav [ class "fixed z2 top-0 left-0 right-0 white bg-lambda-green xs-hide" ]
-        [ div [ class "left p2" ] [ text "Team" ]
-        , div [ class "left p2" ] [ text "Projects" ]
-        , div [ class "left p2" ] [ text "Open Source" ]
-        , div [ class "left p2" ] [ text "Contact" ]
+        [ div [ class "left p2" ] [ a [ href "#team" ] [ text "Team" ] ]
+        , div [ class "left p2" ] [ a [ href "#projects" ] [ text "Projects" ] ]
+        , div [ class "left p2" ] [ a [ href "#contributions" ] [ text "Open Source" ] ]
+        , div [ class "left p2" ] [ a [ href "#contact" ] [ text "Contact" ] ]
         ]
 
 
 welcome : Html Msg
 welcome =
     div [ class "parallax white " ]
-        [ img [ id "arrow", class "xs-hide sm-hide", src "assets/bouncing-arrow.gif" ] [] ]
+        [ a [ href "#team" ] [ img [ id "arrow", class "xs-hide sm-hide", src "assets/bouncing-arrow.gif" ] [] ] ]
 
 
 sections : Model -> Html Msg
