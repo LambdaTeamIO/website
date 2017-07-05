@@ -33,7 +33,7 @@ navigation =
 welcome : Html Msg
 welcome =
     div [ class "parallax white " ]
-        [ a [ href "#team" ] [ img [ id "arrow", class "xs-hide sm-hide", src "assets/bouncing-arrow.gif" ] [] ] ]
+        [ a [ id "jump-team", href "#team" ] [ img [ id "arrow", class "xs-hide sm-hide", src "assets/bouncing-arrow.gif" ] [] ] ]
 
 
 sections : Model -> Html Msg
@@ -47,5 +47,5 @@ sections model =
 
 contact : Html Msg
 contact =
-    footer [ class "clearfix white bg-black orange" ]
+    footer [ id "contact", class "clearfix white bg-black orange" ]
         [ p [ class "h2 center" ] [ a [ href "mailto: hello@lambdateam.io" ] [ text "hello@lambdateam.io" ] ] ]

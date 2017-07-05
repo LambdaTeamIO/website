@@ -21,7 +21,7 @@ contributionBlock tuple =
         div [ class "px2 col-12 sm-col-6 md-col-3 " ]
             [ div [ class "center" ]
                 [ img [ class "language-image", src (languageImage contribution.language) ] []
-                , a [ class "white", href (contributorsLink contribution) ] [ h3 [] [ text projectName ] ]
+                , a [ class "white", href (contributorsLink contribution), target "_blank" ] [ h3 [] [ text projectName ] ]
                 ]
             ]
 
@@ -49,4 +49,4 @@ contributorsLink contribution =
 
 eventLink : ProjectUrl -> Event -> Html Msg
 eventLink projectUrl event =
-    li [] [ a [ class "orange", href (projectUrl ++ "/" ++ event.uri) ] [ text event.title ] ]
+    li [] [ a [ class "orange", href (projectUrl ++ "/" ++ event.uri), target "_blank" ] [ text event.title ] ]

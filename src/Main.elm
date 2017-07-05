@@ -1,6 +1,6 @@
 module Main exposing (..)
 
-import Navigation exposing (program)
+import Html exposing (program)
 import Models exposing (Model, initialModel)
 import Update exposing (update)
 import View exposing (view)
@@ -19,8 +19,8 @@ subscriptions model =
 -- INIT
 
 
-init : Navigation.Location -> ( Model, Cmd Msg )
-init location =
+init : ( Model, Cmd Msg )
+init =
     ( initialModel, Cmd.none )
 
 
@@ -30,7 +30,7 @@ init location =
 
 main : Program Never Model Msg
 main =
-    program UrlChange
+    program
         { init = init
         , view = view
         , update = update

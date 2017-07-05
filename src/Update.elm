@@ -9,6 +9,3 @@ update msg model =
     case msg of
         NoOp ->
             model ! []
-
-        UrlChange location ->
-            model ! []
