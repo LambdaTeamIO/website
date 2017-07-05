@@ -31,11 +31,11 @@ memberPicture member =
 memberLinks : Member -> Html Msg
 memberLinks member =
     div []
-        [ a [ class "btn", href member.linkedin, title "LinkedIn" ] [ i [ class "fa fa-linkedin" ] [] ]
-        , a [ class "btn", href member.github, title "GitHub" ] [ i [ class "fa fa-github" ] [] ]
+        [ a [ class "btn", href member.linkedin, title "LinkedIn", target "_blank" ] [ i [ class "fa fa-linkedin" ] [] ]
+        , a [ class "btn", href member.github, title "GitHub", target "_blank" ] [ i [ class "fa fa-github" ] [] ]
         , case member.blog of
             Just blog ->
-                a [ class "btn", href blog, title "Blog" ] [ i [ class "fa fa-rss" ] [] ]
+                a [ class "btn", href blog, title "Blog", target "_blank" ] [ i [ class "fa fa-rss" ] [] ]
 
             Nothing ->
                 text ""

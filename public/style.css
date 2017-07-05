@@ -6,7 +6,9 @@ a {
     color: #ff851b;
     text-decoration: none;
 }
-
+nav a {
+	color: white;
+}
 /* HOME */
 .bg-lambda-green {
     background-color: rgb(0, 107, 0);
