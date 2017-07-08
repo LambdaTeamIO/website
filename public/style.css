@@ -32,7 +32,10 @@ nav a {
     margin-left: -18px;
     height: 64px;
 }
-
+#just-devs {
+    font-family: 'Indie Flower', cursive;
+    margin: auto;
+}    
 .wrap-blanks {
     white-space:pre-wrap;
 }

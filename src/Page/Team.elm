@@ -8,7 +8,17 @@ import Data.Team exposing (Member, Team)
 
 view : Team -> Html Msg
 view team =
-    div [ class "flex flex-wrap" ] (List.map memberBlock team)
+    div [ class "flex flex-wrap" ]
+        (List.append
+            (List.map memberBlock team)
+            [ clarificationSentence ]
+        )
+
+
+clarificationSentence : Html Msg
+clarificationSentence =
+    p [ id "just-devs" ]
+        [ text "(Yeah... we are not fashion models, just developers.)" ]
 
 
 memberBlock : Member -> Html Msg
