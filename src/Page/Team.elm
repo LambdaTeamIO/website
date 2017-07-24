@@ -23,7 +23,7 @@ clarificationSentence =
 
 memberBlock : Member -> Html Msg
 memberBlock member =
-    div [ class "px2 col-12 sm-col-6 md-col-3 center" ]
+    div [ class "px2 col-12 sm-col-6 md-col-4 center" ]
         [ memberPicture member
         , h3 [] [ text member.name ]
         , memberLinks member
